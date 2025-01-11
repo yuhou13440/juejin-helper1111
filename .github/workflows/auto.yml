@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "15 6,10,23 * * *" # 北京时间上午06:30
+    - cron: "23 6,10,21 * * *" # 北京时间上午06:30
   workflow_dispatch:
 
 env:
@@ -11,6 +11,11 @@ env:
   COOKIE_3: ${{ secrets.COOKIE_3 }}
   COOKIE_4: ${{ secrets.COOKIE_4 }}
   COOKIE_5: ${{ secrets.COOKIE_5 }}
+  COOKIE_6: ${{ secrets.COOKIE_6 }}
+  COOKIE_7: ${{ secrets.COOKIE_7 }}
+  COOKIE_8: ${{ secrets.COOKIE_8 }}
+  COOKIE_9: ${{ secrets.COOKIE_9 }}
+  COOKIE_10: ${{ secrets.COOKIE_10 }}
   EMAIL_USER: ${{ secrets.EMAIL_USER }}
   EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
   EMAIL_TO: ${{ secrets.EMAIL_TO }}
