@@ -17,7 +17,7 @@ async function run() {
       packages.push(pkg);
     }
   });
-
+#
   packages.forEach(pkg => {
     const { version, source, main, module, types, dependencies, devDependencies } = pkg.config;
 
