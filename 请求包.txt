@@ -1,0 +1,25 @@
+POST https://mcsp.midea.com/api/cms_bff/mcsp-uc-mvip-bff/app/pointMall/exchange/exchange.do HTTP/1.1
+Host: mcsp.midea.com
+Connection: keep-alive
+Content-Length: 357
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+sec-ch-ua: "Microsoft Edge";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+Content-Type: application/json;charset=UTF-8
+ucAccessToken: 77490d620445c1038e9a13f2485e5f5ef2e4a331988273921fa12ea8983bd5cf
+sec-ch-ua-mobile: ?0
+Accept: */*
+Origin: https://mvip.midea.cn
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Sec-Fetch-Storage-Access: active
+Referer: https://mvip.midea.cn/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+
+
+{"headParams":{"language":"CN","originSystem":"MCSP","timeZone":8,"transactionId":6016333815},"restParams":{"ucAccessToken":"77490d620445c1038e9a13f2485e5f5ef2e4a331988273921fa12ea8983bd5cf","strMachineKey":"","userId":"1114614767611","exchangeCode":"c69bbc37781340d884ccbb0ed2232bde","num":1,"chargeAccount":"","platform":"2","point":"10"},"pagination":{}}
+
+
+
